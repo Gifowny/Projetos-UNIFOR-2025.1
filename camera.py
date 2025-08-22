@@ -26,7 +26,7 @@ while True:
         "My Face Detection Project", video_frame
     )  
 
-    if cv2.waitKey(1) & 0xFF == ord("q"):
+    if cv2.waitKey(1) & 0xFF == ord("x"):
         break
 
 video_capture.release()
